@@ -9,5 +9,10 @@ import Main from "../Layout/Main";
     {
       path: "/",
       element: <Main></Main>,
+      children:[
+        {
+            path:'/',
+        }
+      ]
     },
   ]);
