@@ -1,21 +1,24 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import img1 from "../../../assets/1.webp";
+import img2 from "../../../assets/2.webp";
+import img3 from "../../../assets/3.webp";
 const Banner = () => {
     return (
         <div>
             <Carousel>
                 <div>
-                    <img src="assets/1.jpeg" />
-                    <p className="legend">Legend 1</p>
+                    <img src={img1} />
+                    
                 </div>
                 <div>
-                    <img src="assets/2.jpeg" />
-                    <p className="legend">Legend 2</p>
+                    <img src={img2} />
+                    
                 </div>
                 <div>
-                    <img src="assets/3.jpeg" />
-                    <p className="legend">Legend 3</p>
+                    <img src={img3} />
+                    
                 </div>
             </Carousel>
         </div>
