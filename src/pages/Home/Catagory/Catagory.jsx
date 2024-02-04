@@ -3,8 +3,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import slide1 from "../../../assets/11.jpg";
-import slide2 from "../../../assets/12.jpg";
+import slide1 from "../../../assets/Untitled design (5).webp";
+import slide2 from "../../../assets/Untitled design (6).webp";
+import slide3 from "../../../assets/Untitled design (7).webp";
+import slide4 from "../../../assets/Untitled design (8).webp";
+import slide5 from "../../../assets/Untitled design (9).webp";
+import slide6 from "../../../assets/Untitled design (10).webp";
+import slide7 from "../../../assets/Untitled design (11).webp";
 const Catagory = () => {
   return (
     <>
@@ -24,12 +29,28 @@ const Catagory = () => {
         </SwiperSlide>
         <SwiperSlide>
         <img src={slide2} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">Sadns</h3>
         </SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>
+        <img src={slide3} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">Sadns</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={slide4} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">Sadns</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={slide5} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">Sadns</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={slide6} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">Sadns</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={slide7} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">Sadns</h3>
+        </SwiperSlide>
         <SwiperSlide>Slide 8</SwiperSlide>
         <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
