@@ -17,7 +17,7 @@ const Catagory = () => {
       <section>
         <SectionTitle
           subHeading={"From 11.00am to 10.00pm"}
-          heading={""}
+          heading={"Order Now"}
         ></SectionTitle>
         <Swiper
           slidesPerView={4}
