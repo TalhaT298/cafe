@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import MenuItem from '../../Shared/MenuItem/MenuItem';
+import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 
 const PopularMenu = () => {
     const [menu,setMenu]=useState([]);
@@ -11,12 +12,12 @@ const PopularMenu = () => {
             setMenu(popularItems)} )
     },[])
     return (
-        <section>
+        <section className='mb-12'>
             <SectionTitle
           subHeading={"From Our Menu"}
           heading={"Popular item"}
         ></SectionTitle>
-        <div>
+        <div className='grid md:grid-cols-2 gap-10'>
             {
                 menu.map(item=><MenuItem
                 key={item._id}
