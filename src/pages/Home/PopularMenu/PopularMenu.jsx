@@ -5,7 +5,7 @@ const PopularMenu = () => {
     useEffect(()=>{
         fetch('menu.json')
         .then(res => res.json())
-        .then(data =>setMenu(data) )
+        .then(data =>setMenu(data.filter) )
     },[])
     return (
         <section>
