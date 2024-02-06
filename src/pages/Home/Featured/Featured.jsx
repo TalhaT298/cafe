@@ -5,8 +5,8 @@ const Featured = () => {
   return (
     <section className="mb-12">
       <SectionTitle
-        subHeading={"From Our Menu"}
-        heading={"Popular item"}
+        subHeading={"check it out"}
+        heading={"Feature"}
       ></SectionTitle>
     </section>
   );
