@@ -6,8 +6,8 @@ const PopularMenu = () => {
         fetch('menu.json')
         .then(res => res.json())
         .then(data =>{
-            const popularItem=data.filter(item=> item.category==='popular');
-            setMenu(data.filter)} )
+            const popularItems=data.filter(item=> item.category==='popular');
+            setMenu(popularItems)} )
     },[])
     return (
         <section>
@@ -15,6 +15,11 @@ const PopularMenu = () => {
           subHeading={"From Our Menu"}
           heading={"Popular item"}
         ></SectionTitle>
+        <div>
+            {
+                menu.map(item=>)
+            }
+        </div>
         </section>
     );
 };
