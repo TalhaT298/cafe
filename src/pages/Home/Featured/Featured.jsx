@@ -3,7 +3,7 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import feature from "../../../assets/feature.webp"
 const Featured = () => {
   return (
-    <section className="mb-12">
+    <section className="featured-item mb-12">
       <SectionTitle
         subHeading={"check it out"}
         heading={"Feature"}
