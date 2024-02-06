@@ -19,7 +19,8 @@ const PopularMenu = () => {
         <div>
             {
                 menu.map(item=><MenuItem
-                
+                key={item._id}
+                item={item}
                 
                 >
                 
