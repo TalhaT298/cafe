@@ -16,7 +16,7 @@ const Catagory = () => {
     <>
       <section>
         <SectionTitle
-        
+        heading={"From 11.00am to 10.00pm"}
         >
 
         </SectionTitle>
