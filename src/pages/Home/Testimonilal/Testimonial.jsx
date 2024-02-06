@@ -9,7 +9,7 @@ import { Navigation } from "swiper/modules";
 
 const Testimonial = () => {
   return (
-    <section>
+    <section className="my-20">
       <SectionTitle
         subHeading={"What our Client Say"}
         heading={"Testimonials"}
