@@ -4,7 +4,7 @@ import feature from "../../../assets/feature.webp"
 import './Featured.css';
 const Featured = () => {
   return (
-    <section className="featured-item text-white mb-12">
+    <section className="featured-item text-white mb-12 pt-6 my-10">
       <SectionTitle
         subHeading={"check it out"}
         heading={"Feature"}
