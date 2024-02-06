@@ -1,15 +1,15 @@
-import React from 'react';
-import SectionTitle from '../../../components/SectionTitle/SectionTitle';
+import React from "react";
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 
 const Testimonial = () => {
-    return (
-        <section>
-            <SectionTitle
-        subHeading={"check it out"}
-        heading={"Feature"}
+  return (
+    <section>
+      <SectionTitle
+        subHeading={"What our Client Say"}
+        heading={"Testimonials"}
       ></SectionTitle>
-        </section>
-    );
+    </section>
+  );
 };
 
 export default Testimonial;
