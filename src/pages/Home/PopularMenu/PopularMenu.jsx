@@ -4,8 +4,8 @@ const PopularMenu = () => {
     return (
         <section>
             <SectionTitle
-          subHeading={"From 11.00am to 10.00pm"}
-          heading={"Order Now"}
+          subHeading={"From Our Menu"}
+          heading={"Popular item"}
         ></SectionTitle>
         </section>
     );
