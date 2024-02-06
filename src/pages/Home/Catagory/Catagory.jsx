@@ -13,6 +13,7 @@ import slide7 from "../../../assets/Untitled design (11).webp";
 const Catagory = () => {
   return (
     <>
+      <section>
       <Swiper
         slidesPerView={4}
         spaceBetween={30}
@@ -54,6 +55,7 @@ const Catagory = () => {
         <SwiperSlide>Slide 8</SwiperSlide>
         <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
+      </section>
     </>
   );
 };
