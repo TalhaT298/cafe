@@ -1,4 +1,5 @@
 import React from "react";
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 
 const Featured = () => {
   return (
