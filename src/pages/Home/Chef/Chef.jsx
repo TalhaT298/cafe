@@ -2,9 +2,9 @@ import React from 'react';
 
 const Chef = () => {
     return (
-        <div>
+        <section>
             
-        </div>
+        </section>
     );
 };
 
