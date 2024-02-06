@@ -1,9 +1,10 @@
 import React from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import feature from "../../../assets/feature.webp"
+import './Featured.css';
 const Featured = () => {
   return (
-    <section className="featured-item mb-12">
+    <section className="featured-item text-white mb-12">
       <SectionTitle
         subHeading={"check it out"}
         heading={"Feature"}
