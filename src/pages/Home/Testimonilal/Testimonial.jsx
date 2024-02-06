@@ -28,7 +28,7 @@ const Testimonial = () => {
             key={review._id}
             
             >
-                <div>
+                <div className="m-24">
                     <p>{review.details}</p>
                     <h3 className="text-2xl text-orange-400">{review.name}</h3>
                 </div>
