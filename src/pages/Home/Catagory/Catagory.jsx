@@ -10,10 +10,16 @@ import slide4 from "../../../assets/Untitled design (8).webp";
 import slide5 from "../../../assets/Untitled design (9).webp";
 import slide6 from "../../../assets/Untitled design (10).webp";
 import slide7 from "../../../assets/Untitled design (11).webp";
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 const Catagory = () => {
   return (
     <>
       <section>
+        <SectionTitle
+        
+        >
+
+        </SectionTitle>
       <Swiper
         slidesPerView={4}
         spaceBetween={30}
