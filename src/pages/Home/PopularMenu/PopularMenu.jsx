@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import MenuItem from '../../Shared/MenuItem/MenuItem';
 
 const PopularMenu = () => {
     const [menu,setMenu]=useState([]);
@@ -17,7 +18,12 @@ const PopularMenu = () => {
         ></SectionTitle>
         <div>
             {
-                menu.map(item=>)
+                menu.map(item=><MenuItem
+                
+                
+                >
+                
+                </MenuItem>)
             }
         </div>
         </section>
