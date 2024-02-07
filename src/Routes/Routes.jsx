@@ -9,7 +9,7 @@ import Home from "../pages/Home/Home/Home";
   export const router = createBrowserRouter([
     {
       path: "/",
-      element: <Main></Main>,
+      element: <Main ></Main>,
       children:[
         {
             path:'/',
