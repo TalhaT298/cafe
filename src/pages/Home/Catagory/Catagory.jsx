@@ -94,7 +94,7 @@ const Catagory = () => {
           <SwiperSlide>
             <img src={slide10} alt="" />
             <h3 className="text 4xl uppercase text-center -mt-16 text-white">
-              Chicken
+            Fried rice
             </h3>
           </SwiperSlide>
           <SwiperSlide>
