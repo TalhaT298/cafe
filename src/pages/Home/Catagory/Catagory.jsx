@@ -79,6 +79,54 @@ const Catagory = () => {
               Chicken
             </h3>
           </SwiperSlide>
+          <SwiperSlide>
+            <img src={slide7} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">
+              Chicken
+            </h3>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={slide7} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">
+              Chicken
+            </h3>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={slide7} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">
+              Chicken
+            </h3>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={slide7} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">
+              Chicken
+            </h3>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={slide7} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">
+              Chicken
+            </h3>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={slide7} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">
+              Chicken
+            </h3>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={slide7} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">
+              Chicken
+            </h3>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={slide7} alt="" />
+            <h3 className="text 4xl uppercase text-center -mt-16 text-white">
+              Chicken
+            </h3>
+          </SwiperSlide>
           
         </Swiper>
       </section>
