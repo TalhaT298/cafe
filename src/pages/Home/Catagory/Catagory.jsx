@@ -10,6 +10,14 @@ import slide4 from "../../../assets/Untitled design (8).webp";
 import slide5 from "../../../assets/Untitled design (9).webp";
 import slide6 from "../../../assets/Untitled design (10).webp";
 import slide7 from "../../../assets/Untitled design (11).webp";
+import slide7 from "../../../assets/Untitled design (11).webp";
+import slide7 from "../../../assets/Untitled design (11).webp";
+import slide7 from "../../../assets/Untitled design (11).webp";
+import slide7 from "../../../assets/Untitled design (11).webp";
+import slide7 from "../../../assets/Untitled design (11).webp";
+import slide7 from "../../../assets/Untitled design (11).webp";
+import slide7 from "../../../assets/Untitled design (11).webp";
+import slide7 from "../../../assets/Untitled design (11).webp";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 const Catagory = () => {
   return (
@@ -71,8 +79,7 @@ const Catagory = () => {
               Chicken
             </h3>
           </SwiperSlide>
-          <SwiperSlide>Slide 8</SwiperSlide>
-          <SwiperSlide>Slide 9</SwiperSlide>
+          
         </Swiper>
       </section>
     </>
