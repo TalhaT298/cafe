@@ -80,49 +80,49 @@ const Catagory = () => {
             </h3>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide7} alt="" />
+            <img src={slide8} alt="" />
             <h3 className="text 4xl uppercase text-center -mt-16 text-white">
               Chicken
             </h3>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide7} alt="" />
+            <img src={slide9} alt="" />
             <h3 className="text 4xl uppercase text-center -mt-16 text-white">
               Chicken
             </h3>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide7} alt="" />
+            <img src={slide10} alt="" />
             <h3 className="text 4xl uppercase text-center -mt-16 text-white">
               Chicken
             </h3>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide7} alt="" />
+            <img src={slide11} alt="" />
             <h3 className="text 4xl uppercase text-center -mt-16 text-white">
               Chicken
             </h3>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide7} alt="" />
+            <img src={slide12} alt="" />
             <h3 className="text 4xl uppercase text-center -mt-16 text-white">
               Chicken
             </h3>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide7} alt="" />
+            <img src={slide13} alt="" />
             <h3 className="text 4xl uppercase text-center -mt-16 text-white">
               Chicken
             </h3>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide7} alt="" />
+            <img src={slide14} alt="" />
             <h3 className="text 4xl uppercase text-center -mt-16 text-white">
               Chicken
             </h3>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide7} alt="" />
+            <img src={slide15} alt="" />
             <h3 className="text 4xl uppercase text-center -mt-16 text-white">
               Chicken
             </h3>
