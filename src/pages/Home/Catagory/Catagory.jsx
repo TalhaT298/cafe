@@ -10,7 +10,7 @@ import slide4 from "../../../assets/Untitled design (8).webp";
 import slide5 from "../../../assets/Untitled design (9).webp";
 import slide6 from "../../../assets/Untitled design (10).webp";
 import slide7 from "../../../assets/Untitled design (11).webp";
-import slide8 from "../../../assets/Untitled design (11).webp";
+import slide8 from "../../../assets/33.webp";
 import slide9 from "../../../assets/Untitled design (11).webp";
 import slide10 from "../../../assets/Untitled design (11).webp";
 import slide11 from "../../../assets/Untitled design (11).webp";
