@@ -17,7 +17,7 @@ import Menu from "../pages/Menu/Menu/Menu";
             element:<Home></Home>
         },
         {
-            path:'/',
+            path:'/menu',
             element:<Menu></Menu>
         }
       ]

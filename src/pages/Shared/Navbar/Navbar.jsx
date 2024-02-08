@@ -1,5 +1,11 @@
 import React from 'react';
 
+const navOptions = <>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+
+</>
+
 const Navbar = () => {
     return (
         <div>
