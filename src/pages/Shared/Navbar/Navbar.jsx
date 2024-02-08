@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const navOptions = <>
-      <li><a href=""></a></li>
+      <li><Link></Link></li>
       <li><a href=""></a></li>
 
 </>
