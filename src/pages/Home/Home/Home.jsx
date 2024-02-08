@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div>
              <Helmet>
-                <title>javaJive | menu</title>
+                <title>javaJive | Home</title>
             </Helmet>
             <Banner></Banner>
             <Catagory></Catagory>
