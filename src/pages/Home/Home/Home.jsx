@@ -5,10 +5,14 @@ import PopularMenu from '../PopularMenu/PopularMenu';
 import Chef from '../Chef/Chef';
 import Featured from '../Featured/Featured';
 import Testimonial from '../Testimonilal/Testimonial';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     return (
         <div>
+             <Helmet>
+                <title>javaJive | menu</title>
+            </Helmet>
             <Banner></Banner>
             <Catagory></Catagory>
             <PopularMenu></PopularMenu>

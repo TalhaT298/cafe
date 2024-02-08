@@ -4,7 +4,7 @@ const Menu = () => {
     return (
         <div>
             <Helmet>
-                <title>javaJive</title>
+                <title>javaJive | menu</title>
             </Helmet>
         </div>
     );
