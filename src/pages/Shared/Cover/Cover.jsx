@@ -5,7 +5,7 @@ const Cover = ({img,title}) => {
 
     <Parallax
         blur={{ min: -15, max: 15 }}
-        bgImage={require('path/to/another/image.jpg')}
+        bgImage={img}
         bgImageAlt="the dog"
         strength={-200}
     >
