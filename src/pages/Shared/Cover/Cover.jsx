@@ -2,7 +2,14 @@ import React from "react";
 import { Parallax } from 'react-parallax';
 const Cover = ({img,title}) => {
   return (
-    <div
+
+    <Parallax
+        blur={{ min: -15, max: 15 }}
+        bgImage={require('path/to/another/image.jpg')}
+        bgImageAlt="the dog"
+        strength={-200}
+    >
+        <div
       className="hero h-[500px]"
       style={{
         backgroundImage:
@@ -22,6 +29,10 @@ const Cover = ({img,title}) => {
         </div>
       </div>
     </div>
+    </Parallax>
+
+
+    
   );
 };
 
