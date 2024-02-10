@@ -8,7 +8,7 @@ const Menu = () => {
             <Helmet>
                 <title>javaJive |Menu</title>
             </Helmet>
-            <Cover img={menuImg}></Cover>
+            <Cover img={menuImg} title='our menu'></Cover>
         </div>
     );
 };
