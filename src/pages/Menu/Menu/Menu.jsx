@@ -17,7 +17,7 @@ const Menu = () => {
                 <title>javaJive |Menu</title>
             </Helmet>
             <Cover img={menuImg} title='our menu'></Cover>
-            <SectionTitle subHeading="Don't Miss"></SectionTitle>
+            <SectionTitle subHeading="Don't Miss" heading="Toda's Offer"></SectionTitle>
         </div>
     );
 };
