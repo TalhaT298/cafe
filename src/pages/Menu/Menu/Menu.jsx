@@ -3,6 +3,9 @@ import { Helmet } from 'react-helmet-async';
 import Cover from '../../Shared/Cover/Cover';
 import menuImg from '../../../assets/menu.webp'
 import dessertImg from '../../../assets/dessert.webp'
+import pizzaImg from '../../../assets/dessert.webp'
+import saladImg from '../../../assets/dessert.webp'
+import soupImg from '../../../assets/dessert.webp'
 import useMenu from '../../../hooks/useMenu';
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 import MenuCategory from '../MenuCategory/MenuCategory';
@@ -35,6 +38,9 @@ const Menu = () => {
 
 
             </MenuCategory>
+            <MenuCategory items={pizza} title={"Pizza"} img={pizzaImg}></MenuCategory>
+            <MenuCategory items={salad} title={"Salad"} img={saladImg}></MenuCategory>
+            <MenuCategory items={soup} title={"Soup"} img={soupImg}></MenuCategory>
         </div>
     );
 };
