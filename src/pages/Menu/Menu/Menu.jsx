@@ -7,7 +7,7 @@ import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 import MenuCategory from '../MenuCategory/MenuCategory';
 const Menu = () => {
     const [menu]= useMenu()
-    const dessert = menu.filter((item) => item.category === "dessert");
+    const desserts = menu.filter((item) => item.category === "dessert");
     const soup = menu.filter((item) => item.category === "soup");
     const salad = menu.filter((item) => item.category === "salad");
     const pizza = menu.filter((item) => item.category === "pizza");
@@ -18,8 +18,22 @@ const Menu = () => {
                 <title>javaJive |Menu</title>
             </Helmet>
             <Cover img={menuImg} title='our menu'></Cover>
+            {/* min cover */}
             <SectionTitle subHeading="Don't Miss" heading="Toda's Offer"></SectionTitle>
+            {/* offermenu */}
             <MenuCategory items={offered}></MenuCategory>
+
+            {/* desert */}
+            <MenuCategory
+            
+
+            items={desserts}
+            title="Dessert"
+
+            >
+
+
+            </MenuCategory>
         </div>
     );
 };
