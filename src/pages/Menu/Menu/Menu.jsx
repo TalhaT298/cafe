@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import Cover from '../../Shared/Cover/Cover';
 import menuImg from '../../../assets/menu.webp'
+import dessertImg from '../../../assets/dessert.webp'
 import useMenu from '../../../hooks/useMenu';
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 import MenuCategory from '../MenuCategory/MenuCategory';
@@ -29,7 +30,7 @@ const Menu = () => {
 
             items={desserts}
             title="Dessert"
-
+            img={dessertImg}
             >
 
 
