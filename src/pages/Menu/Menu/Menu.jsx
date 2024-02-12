@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet-async';
 import Cover from '../../Shared/Cover/Cover';
 import menuImg from '../../../assets/menu.webp'
 import dessertImg from '../../../assets/dessert.webp'
-import pizzaImg from '../../../assets/dessert.webp'
-import saladImg from '../../../assets/dessert.webp'
-import soupImg from '../../../assets/dessert.webp'
+import pizzaImg from '../../../assets/pizza.webp';
+import saladImg from '../../../assets/salad.webp';
+import soupImg from '../../../assets/soup.webp';
 import useMenu from '../../../hooks/useMenu';
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 import MenuCategory from '../MenuCategory/MenuCategory';
