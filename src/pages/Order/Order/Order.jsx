@@ -4,6 +4,7 @@ import orderCover from "../../../assets/ordercover.webp";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import useMenu from "../../../hooks/useMenu";
+import FoodCard from "../../../components/SectionTitle/FoodCard/FoodCard";
 
 const Order = () => {
     const [tabIndex,setTabIndex]=useState(0);
@@ -24,7 +25,15 @@ const Order = () => {
         <Tab>Dessert</Tab>
         <Tab>Drinks</Tab>
       </TabList>
-      <TabPanel></TabPanel>
+      <TabPanel>
+        {
+            salad.map(item => <FoodCard
+            key={item._id}
+            item={item}
+            
+            ></FoodCard>)
+        }
+      </TabPanel>
       <TabPanel></TabPanel>
       <TabPanel></TabPanel>
       <TabPanel></TabPanel>
