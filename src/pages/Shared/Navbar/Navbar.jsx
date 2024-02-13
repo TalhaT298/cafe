@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-
   const navOption = (
     <>
       <li>
@@ -11,9 +10,8 @@ const Navbar = () => {
         <Link to="/menu">Our Menu</Link>
       </li>
       <li>
-        <Link to="/order">Order Food</Link>
+        <Link to="/order/salad">Order Food</Link>
       </li>
-
     </>
   );
 
@@ -47,7 +45,9 @@ const Navbar = () => {
         <a className="btn btn-ghost text-xl">javaJive</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal font-medium items-center  px-1">{navOption}</ul>
+        <ul className="menu menu-horizontal font-medium items-center  px-1">
+          {navOption}
+        </ul>
       </div>
     </div>
   );
