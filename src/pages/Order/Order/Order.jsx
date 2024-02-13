@@ -4,7 +4,7 @@ import orderCover from '../../../assets/ordercover.webp';
 const Order = () => {
     return (
         <div>
-            <Cover img={orderCover}></Cover>
+            <Cover img={orderCover} title="Order Food"></Cover>
         </div>
     );
 };
