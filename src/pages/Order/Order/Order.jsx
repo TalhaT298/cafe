@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Cover from "../../Shared/Cover/Cover";
 import orderCover from "../../../assets/ordercover.webp";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
 const Order = () => {
+    const [tabIndex,setTabIndex]=useState(0)
   return (
     <div>
       <Cover img={orderCover} title="Order Food"></Cover>
