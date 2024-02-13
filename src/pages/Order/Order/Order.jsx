@@ -5,6 +5,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import useMenu from "../../../hooks/useMenu";
 import FoodCard from "../../../components/SectionTitle/FoodCard/FoodCard";
+import OrderTab from "../OrderTab/OrderTab";
 
 const Order = () => {
     const [tabIndex,setTabIndex]=useState(0);
@@ -26,15 +27,7 @@ const Order = () => {
         <Tab>Drinks</Tab>
       </TabList>
       <TabPanel>
-        <div className="grid md:grid-cols-3 gap-10">
-        {
-            salad.map(item => <FoodCard
-            key={item._id}
-            item={item}
-            
-            ></FoodCard>)
-        }
-        </div>
+        <OrderTab items={salad}></OrderTab>
       </TabPanel>
       <TabPanel></TabPanel>
       <TabPanel></TabPanel>
