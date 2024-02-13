@@ -26,6 +26,7 @@ const Order = () => {
         <Tab>Drinks</Tab>
       </TabList>
       <TabPanel>
+        <div className="grid md:grid-cols-3 gap-10">
         {
             salad.map(item => <FoodCard
             key={item._id}
@@ -33,6 +34,7 @@ const Order = () => {
             
             ></FoodCard>)
         }
+        </div>
       </TabPanel>
       <TabPanel></TabPanel>
       <TabPanel></TabPanel>
