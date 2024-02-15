@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
 const Login = () => {
+
+    useEffect(() =>{
+        loadCaptchaEnginge(5);
+    }, [])
+
+
+
     const hanleLogin = event =>{
         event.preventDefault();
         const form= event.target;
