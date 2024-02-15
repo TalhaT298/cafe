@@ -43,7 +43,8 @@ const Login = () => {
           <label className="label">
           <LoadCanvasTemplate />
           </label>
-          <input type="text" name='password' placeholder="password" className="input input-bordered" required />
+          <input type="text" name='captcha' placeholder="type the captcha above" className="input input-bordered" required />
+            <button className='btn btn-outline btn-xs'>Validate</button>
         </div>
         <div className="form-control mt-6">
           <input className='btn btn-primary' type='submit' value='Login' />
