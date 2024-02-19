@@ -1,5 +1,6 @@
 import React from "react";
-
+import { useForm } from "react-hook-form";
+const {register,handleSubmit,watch,formState: { errors },} = useForm()
 const SignUp = () => {
   return (
     <div>
