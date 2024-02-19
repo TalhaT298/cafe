@@ -2,13 +2,15 @@ import React from "react";
 import { useForm } from "react-hook-form";
 
 const SignUp = () => {
-    const {register,handleSubmit,watch,formState: { errors },} = useForm();
-    const onSubmit = (data) => {
-        
-        console.log(data);
-    };
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => {
+    console.log(data);
+  };
 
-    console.log(watch("example")) ;
   return (
     <div>
       <div className="hero min-h-screen bg-base-200">
@@ -30,11 +32,14 @@ const SignUp = () => {
                 <input
                   type="text"
                   placeholder="Name"
-                  {...register("name")}
+                  {...register("name", { required: true })}
                   name="name"
                   className="input input-bordered"
                   required
                 />
+                {errors.name && (
+                  <span className="text-red-600">Name is required</span>
+                )}
               </div>
               <div className="form-control">
                 <label className="label">
@@ -43,11 +48,14 @@ const SignUp = () => {
                 <input
                   type="email"
                   placeholder="email"
-                  {...register("email")}
+                  {...register("email", { required: true })}
                   name="email"
                   className="input input-bordered"
                   required
                 />
+                {errors.email && (
+                  <span className="text-red-600">email is required</span>
+                )}
               </div>
               <div className="form-control">
                 <label className="label">
