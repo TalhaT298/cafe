@@ -12,7 +12,10 @@ const SignUp = () => {
   };
 
   return (
-    <div>
+    <>
+      <Helmet>
+        <title>javaJive |Sign Up</title>
+      </Helmet>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
@@ -64,16 +67,28 @@ const SignUp = () => {
                 <input
                   type="password"
                   placeholder="password"
-                  {...register("password",{ required: true,minLength:6, maxLength: 20,
-                    pattern:/(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[!@#$*])(?=.*[0-9])(?=.*[a-z])/ 
-                
-                
-                })}
+                  {...register("password", {
+                    required: true,
+                    minLength: 6,
+                    maxLength: 20,
+                    pattern:
+                      /(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[!@#$*])(?=.*[0-9])(?=.*[a-z])/,
+                  })}
                   className="input input-bordered"
                 />
-                {errors.password?.type === 'required' && <p className="text-red-600">Password is required</p>}
-                {errors.password?.type === 'minLength' && <p className="text-red-600">Password must be 6 characters</p>}
-                {errors.password?.type === 'pattern' && <p className="text-red-600">password that is at least 6 characters long and contains at least one uppercase letter, one lowercase letter, one numeric digit, and one special character</p>}
+                {errors.password?.type === "required" && (
+                  <p className="text-red-600">Password is required</p>
+                )}
+                {errors.password?.type === "minLength" && (
+                  <p className="text-red-600">Password must be 6 characters</p>
+                )}
+                {errors.password?.type === "pattern" && (
+                  <p className="text-red-600">
+                    password that is at least 6 characters long and contains at
+                    least one uppercase letter, one lowercase letter, one
+                    numeric digit, and one special character
+                  </p>
+                )}
                 <label className="label">
                   <a href="#" className="label-text-alt link link-hover">
                     Forgot password?
@@ -81,13 +96,17 @@ const SignUp = () => {
                 </label>
               </div>
               <div className="form-control mt-6">
-                <button className="btn btn-primary">Login</button>
+                <input
+                  type="submit"
+                  value="Sign Up"
+                  className="btn btn-primary"
+                ></input>
               </div>
             </form>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
