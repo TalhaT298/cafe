@@ -1,6 +1,8 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const {user}=useContext(AudioContext);
   const navOption = (
     <>
       <li>
