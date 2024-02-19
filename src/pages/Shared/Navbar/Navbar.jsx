@@ -2,7 +2,11 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const {user}=useContext(AudioContext);
+  const {user, logOut}=useContext(AudioContext);
+
+  const handleLogOut =()=>{
+
+  }
   const navOption = (
     <>
       <li>
@@ -19,7 +23,7 @@ const Navbar = () => {
       </li>
       {
         user? <>
-         <button className="btn btn-ghost">Button</button>
+         <button onClick={handleLogOut} className="btn btn-ghost">Button</button>
         
         </>:<>
         <li><Link to="/login">Login</Link></li>
