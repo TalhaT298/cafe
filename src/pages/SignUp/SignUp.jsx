@@ -30,6 +30,7 @@ const SignUp = () => {
                 <input
                   type="text"
                   placeholder="Name"
+                  {...register("name")}
                   name="name"
                   className="input input-bordered"
                   required
@@ -42,6 +43,7 @@ const SignUp = () => {
                 <input
                   type="email"
                   placeholder="email"
+                  {...register("email")}
                   name="email"
                   className="input input-bordered"
                   required
