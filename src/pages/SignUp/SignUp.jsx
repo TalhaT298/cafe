@@ -64,11 +64,16 @@ const SignUp = () => {
                 <input
                   type="password"
                   placeholder="password"
-                  {...register("password",{ required: true,minLength:6, maxLength: 20 })}
+                  {...register("password",{ required: true,minLength:6, maxLength: 20,
+                    pattern:/(?=^.{6,}$)(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[^A-Za-z0-9]).*/ 
+                
+                
+                })}
                   className="input input-bordered"
                 />
                 {errors.password?.type === 'required' && <p className="text-red-600">Password is required</p>}
                 {errors.password?.type === 'minLength' && <p className="text-red-600">Password must be 6 characters</p>}
+                {errors.password?.type === 'maxLength' && <p className="text-red-600">Password must be less than characters</p>}
                 <label className="label">
                   <a href="#" className="label-text-alt link link-hover">
                     Forgot password?
