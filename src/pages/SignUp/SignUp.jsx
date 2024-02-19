@@ -56,6 +56,7 @@ const SignUp = () => {
                 <input
                   type="password"
                   placeholder="password"
+                  {...register("password")}
                   className="input input-bordered"
                   required
                 />
