@@ -5,7 +5,9 @@ const Navbar = () => {
   const {user, logOut}=useContext(AudioContext);
 
   const handleLogOut =()=>{
-
+        logOut()
+        .then(() => {})
+        .catch(error => console.log(error));
   }
   const navOption = (
     <>
