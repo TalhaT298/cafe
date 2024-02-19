@@ -1,13 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const SignUp = () => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
+  const { register, handleSubmit,formState: { errors } } = useForm();
+  const {createUser}= useContext(AuthContext);
   const onSubmit = (data) => {
     console.log(data);
   };
