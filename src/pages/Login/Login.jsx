@@ -9,7 +9,7 @@ const Login = () => {
   const captchaRef = useRef(null);
   const [disabled, setDisabled] = useState(true);
 
-  const {}= useContext(AuthContext);
+  const {signIn}= useContext(AuthContext);
 
   useEffect(() => {
     loadCaptchaEnginge(5);
@@ -21,6 +21,11 @@ const Login = () => {
     const email = form.email.value;
     const password = form.password.value;
     console.log(email, password);
+    signIn(email,password)
+    .then(result =>{
+      const user= result.user;
+      console.log(user);
+    })
   };
 
   const handleValidateCaptcha = () => {
