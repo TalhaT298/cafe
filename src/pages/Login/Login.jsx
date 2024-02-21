@@ -109,7 +109,7 @@ setDisabled(false)
                   <LoadCanvasTemplate />
                 </label>
                 <input
-                  onBlur={handleValidateCaptcha}
+                  onClick={handleValidateCaptcha}
                   type="text"
                   name="captcha"
                   placeholder="type the captcha above"
